@@ -9,7 +9,7 @@ import { PS4Component } from './pages/ps4/ps4.component';
 const routes: Routes = [
   {path: 'catalogo', component: CatalogoComponent},
   {path: 'about', component: AboutComponent},
-  {path: 'PC', component: ItemComponent},
+  {path: 'PC/:id', component: ItemComponent},
   {path: 'PS4', component: PS4Component},
   {path: '**', pathMatch: 'full', redirectTo: 'catalogo'}
 ];
