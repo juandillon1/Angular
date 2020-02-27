@@ -11,6 +11,7 @@ import { ItemComponent } from './pages/item/item.component';
 import { PS4Component } from './pages/ps4/ps4.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { SearchComponent } from './pages/search/search.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { HttpClientModule } from '@angular/common/http';
     CatalogoComponent,
     AboutComponent,
     ItemComponent,
-    PS4Component
+    PS4Component,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
